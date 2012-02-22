@@ -1,0 +1,20 @@
+#README PARA LA PRÁCTICA 2 DE SISTEMAS OPERATIVOS
+
+
+
+
+
+#!/bin/bash 
+CONTADOR=0
+ while [ $CONTADOR -lt 10 ]; do
+ echo Macià ha conseguido contar hasta $CONTADOR
+ let CONTADOR=CONTADOR+1 
+
+if [ "$CONTADOR" = 10 ]; then 
+echo Macià no va a contar más. Se acabó el script.Macià se despidió de Miguel Ángel y huyó!
+fi
+
+done
+
+
+#Macià Torrens Pericàs
